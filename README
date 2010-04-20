@@ -1,0 +1,5 @@
+A few Greasemonkey scripts I've written.
+
+**tumblr-hide-questions.user.js**
+
+> This will hide the question and answer posts on Tumblr. It will say whose post it is you're hiding, and give you a link to show the post if you want to see it.
