@@ -37,7 +37,7 @@ function check_for_questions()
         var hidden_notice = document.createElement('li');
         hidden_notice.className = 'notification single_notification';
         hidden_notice.id = 'notice_' + post_id;
-        hidden_notice.innerHTML = '<b>A question/answer post from ' + tumblrer + ' has been hidden. <a href="#" onclick="document.getElementById(\'' + post_id + '\').style.display=\'\'; document.getElementById(\'' + hidden_notice.id + '\').style.display=\'none\'; return false;">Click here</a> to show it.</b>';
+        hidden_notice.innerHTML = '<b>A Q&A post from ' + tumblrer + ' has been hidden. <a href="#" onclick="document.getElementById(\'' + post_id + '\').style.display=\'\'; document.getElementById(\'' + hidden_notice.id + '\').style.display=\'none\'; return false;">Click here</a> to show it.</b>';
 
         // Hiding - on!
         allPosts[i].parentNode.insertBefore(hidden_notice, allPosts[i].nextSibling);
