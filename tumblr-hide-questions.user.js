@@ -31,7 +31,7 @@ function check_for_questions()
         var name_xpath = "//li[@id='"+post_id+"']/div[@class='tags']/a[1]";
         var name_link = document.evaluate(name_xpath, document, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
         var tumblrer = name_link.snapshotItem(0).innerHTML;
-        tumblrer = tumblerer.split(" ")[1];
+        tumblrer = tumblrer.split(" ")[1];
 
         // Create the hidden notice
         var hidden_notice = document.createElement('li');
